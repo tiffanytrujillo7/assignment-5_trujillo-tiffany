@@ -76,3 +76,13 @@ button {
   margin-bottom: 2%;
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    .custom {
+      width: 90%;
+    }
+}
