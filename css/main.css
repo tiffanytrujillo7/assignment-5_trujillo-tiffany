@@ -21,7 +21,7 @@ form {
   display: flex;
   flex-direction: column;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 label {
@@ -48,4 +48,28 @@ input[type="submit"] {
 input[type="submit"]:hover {
   color: white;
   background-color: pink;
+}
+
+.custom {
+  background-color: beige;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: pink;
+}
+
+button {
+  width: 100px;
+  border: 1px solid pink;
+  border-radius: 10px;
+  margin: auto;
+  background-color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
 }

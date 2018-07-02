@@ -28,3 +28,13 @@ console.log('The email is:' + ' ' + email);
 var message = document.getElementById('message').value;
 console.log('The message is:' + ' ' + message);
 });
+
+// Event Listener 1 - Listens for Click and Shows New Paragraph Content
+
+document.getElementById("button").addEventListener("click", function(){
+    document.getElementById("custom1").innerHTML = "This event listens for a click and a new paragraph appears!";
+});
+
+// Event Listener 2
+
+// Event Listener 3
