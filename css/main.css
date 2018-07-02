@@ -56,6 +56,9 @@ input[type="submit"]:hover {
   margin: auto;
   border-radius: 10px;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  padding: 3%;
+  margin-top: 3%;
 }
 
 h2 {

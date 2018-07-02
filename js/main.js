@@ -54,4 +54,16 @@ function myThirdFunction() {
     document.getElementById("mouse").innerHTML += "Moused out!<br>"
 }
 
-// Event Listener 3
+// Event Listener 3 - Listens for a click anywhere on the page and performs a calculation.
+
+var p1 = 103;
+var p2 = 120;
+
+document.addEventListener("click", function() {
+    myFunction(p1, p2);
+});
+
+function myFunction(a, b) {
+    var result = a * b;
+    document.getElementById("calculation").innerHTML = result;
+}
