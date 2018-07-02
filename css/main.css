@@ -34,6 +34,8 @@ input, textarea {
   max-width: 600px;
 }
 
+/* The above max-width property is used so that the textareas do not get too large on larger screens*/
+
 input[type="submit"] {
   width: 100px;
   border: 1px solid pink;
