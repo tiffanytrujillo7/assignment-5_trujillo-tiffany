@@ -35,6 +35,23 @@ document.getElementById("button").addEventListener("click", function(){
     document.getElementById("custom1").innerHTML = "This event listens for a click and a new paragraph appears!";
 });
 
-// Event Listener 2
+// Event Listener 2 - Listens for a Hover and Shows New Paragraph for when you hover over the button and then remove your mouse from the button.
+
+var x = document.getElementById("mouseOver");
+x.addEventListener("mouseover", myFunction);
+x.addEventListener("click", mySecondFunction);
+x.addEventListener("mouseout", myThirdFunction);
+
+function myFunction() {
+    document.getElementById("mouse").innerHTML += "Moused over!<br>"
+}
+
+function mySecondFunction() {
+    document.getElementById("mouse").innerHTML += "Clicked!<br>"
+}
+
+function myThirdFunction() {
+    document.getElementById("mouse").innerHTML += "Moused out!<br>"
+}
 
 // Event Listener 3
